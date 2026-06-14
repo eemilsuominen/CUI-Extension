@@ -1,0 +1,25 @@
+{
+    "search": "Based on the following user input, create an efficient Google search query. Return only the search query without any additional text or formatting. Do not specify the website unless you are absolutely certain about it. User input:",
+
+    "chooseResult1": "Based on the user's question and the list of search results, choose the most relevant search result. Return only the ResultOption number found in the JSON object without any additional text or formatting. User question:",
+
+    "chooseResult2": "Note that the ResultOption numbers are not the actual index of the JSON object. List of search results in JSON format:",
+
+    "resultSummary1": "Based on the content of the website DOM, answer the user's question. User question:",
+    "resultSummary2": "Content of the website DOM:",
+
+    "summarize1": "Answer the user's question based on the content of  the website DOM. Do not refer to the content as 'the DOM' in your answer. User question:",
+    "summarize2": "Content of the website DOM:",
+
+    "picross1": "Solve this Picross puzzle using logical deduction. Think through row and column constraints carefully before committing. Output ONLY the final lines of the grid using 1 for filled and 0 for empty. No explanation. The grid is 5 or 10 columns and 5 or 10 rows. There must be as many squares filled in a row as the number, and you must deduce the number of gaps in between the filled squares. Column clues (left to right, each clue reads top to bottom):",
+    "picross2": "Row clues (top to bottom, each clue reads left to right):",
+
+    "click1": "Based on the DOM content of the page and the list of clickable elements, choose the correct element by its index based on the user's prompt. Return only the index of the clickable element, nothing else. DOM content: ",
+    "click2": "Clickable elements: ",
+    "click3": "The user's question: ",
+
+    "fill1": "Based on the DOM content of the page and the list of interactive elements, choose the correct element by its index based on the user's prompt. Return only the index of the clickable element and the string that should be filled into the element based on the user's wishes. Response format in exactly two lines: line 1: elementIndex line 2: filledText. DOM Content:",
+    "fill2": "Interactive elements: ",
+    "fill3": "The user's prompt: "
+
+}
